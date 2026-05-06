@@ -87,7 +87,7 @@ const About = () => {
         </div>
 
         {/* Content Section */}
-        <div className="flex-1">
+        <div className="flex-1 text-center lg:text-left">
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -99,10 +99,10 @@ const About = () => {
               <span>Academic Profile</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight leading-tight">
-              Computer Engineering. <br />
+              Computer Engineering. <br className="hidden lg:block" />
               <span className="text-indigo-600">Problem Solver.</span>
             </h1>
-            <p className="text-base text-slate-500 font-medium leading-relaxed max-w-2xl">
+            <p className="text-base text-slate-500 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
               Second-year student at Thapar Institute (2024-2028). 
               Focused on mastering algorithms and building efficient software.
             </p>
@@ -110,14 +110,14 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6 mb-12">
             {skillGroups.map((group, idx) => (
-              <div key={idx}>
+              <div key={idx} className="flex flex-col items-center lg:items-start">
                 <div className="flex items-center gap-3 mb-4">
                   <div className={`w-8 h-8 ${group.color} rounded-xl flex items-center justify-center`}>
                     {group.icon}
                   </div>
                   <h3 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.3em]">{group.category}</h3>
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap justify-center lg:justify-start gap-2">
                   {group.skills.map((skill, sIdx) => (
                     <span key={sIdx} className="px-3 py-1.5 bg-white border border-slate-100 rounded-xl text-[11px] font-bold text-slate-700 hover:border-indigo-600 hover:text-indigo-600 transition-all cursor-default shadow-sm">
                       {skill}

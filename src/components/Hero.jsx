@@ -27,7 +27,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "circOut" }}
-            className="lg:col-span-7"
+            className="lg:col-span-7 text-center lg:text-left"
           >
             <div className="inline-flex items-center gap-3 px-4 py-2 bg-slate-50 border border-slate-100 text-slate-400 rounded-2xl text-[10px] font-black uppercase tracking-[0.4em] mb-10">
               <Fingerprint size={14} className="text-indigo-600" />
@@ -35,15 +35,15 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-black text-slate-900 mb-6 tracking-tighter leading-tight">
-              Krish <br />
+              Krish <br className="hidden md:block" />
               <span className="text-indigo-600">Kataria.</span>
             </h1>
             
-            <p className="text-base md:text-lg text-slate-500 leading-relaxed font-medium max-w-xl mb-10">
+            <p className="text-base md:text-lg text-slate-500 leading-relaxed font-medium max-w-xl mb-10 mx-auto lg:mx-0">
               I'm a Computer Engineering student at <span className="text-slate-900 font-bold">Thapar Institute of Engineering and Technology</span> dedicated to building efficient software and solving real-world problems.
             </p>
             
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <Link to="/projects" className="px-8 py-4 bg-slate-900 text-white rounded-[1.5rem] font-black uppercase text-[10px] tracking-widest hover:bg-indigo-600 transition-all flex items-center gap-3 group shadow-2xl shadow-slate-200">
                 View Projects
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />

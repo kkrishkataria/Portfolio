@@ -61,16 +61,16 @@ const Projects = () => {
       <motion.div 
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-10"
+        className="mb-10 text-center md:text-left"
       >
-        <div className="flex items-center gap-4 mb-4">
+        <div className="flex items-center justify-center md:justify-start gap-4 mb-4">
           <div className="h-[1px] w-12 bg-indigo-500"></div>
           <span className="text-xs font-black text-indigo-400 uppercase tracking-[0.4em]">Works</span>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 tracking-tight">
           My <span className="text-indigo-600">Projects.</span>
         </h1>
-        <p className="text-base text-slate-500 font-medium max-w-2xl leading-relaxed">
+        <p className="text-base text-slate-500 font-medium max-w-2xl leading-relaxed mx-auto md:mx-0">
           Here are some things I have built. I like working on AI, web apps, and coding tools.
         </p>
       </motion.div>
