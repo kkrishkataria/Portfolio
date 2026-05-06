@@ -1,5 +1,5 @@
 import React from 'react';
-import { Terminal, Globe, Cpu, Wrench, Code2 } from 'lucide-react';
+import { Terminal, Layout, Cpu, Wrench, Code2 } from 'lucide-react';
 
 const Skills = () => {
   const skillGroups = [
@@ -10,7 +10,7 @@ const Skills = () => {
     },
     {
       category: 'Development',
-      icon: <Globe className="text-sky-600" size={24} />,
+      icon: <Layout className="text-sky-600" size={24} />,
       skills: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS']
     },
     {

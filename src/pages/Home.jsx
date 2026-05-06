@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Brain, Database, Layers, ShieldCheck, Zap, Cpu, CloudSun, DollarSign, Scissors, Microscope, Droplet, Bot, Lock, Globe } from 'lucide-react';
+import { Code2, Brain, Database, Layers, ShieldCheck, Zap, Cpu, CloudSun, DollarSign, Scissors, Microscope, Droplet, Bot, Lock, ExternalLink } from 'lucide-react';
 import Hero from '../components/Hero';
 
 const Home = () => {
@@ -92,7 +92,7 @@ const Home = () => {
                 { name: 'Blood Bank', link: 'https://github.com/kkrishkataria/Blood-Bank', icon: <Droplet size={16} /> },
                 { name: 'Robotics Pipeline', link: 'https://github.com/kkrishkataria/Robotics-Egocentric-Data-Pipeline', icon: <Bot size={16} /> },
                 { name: 'Password Generator', link: 'https://github.com/kkrishkataria/Password-Generator', icon: <Lock size={16} /> },
-                { name: 'Personal Website', link: 'https://github.com/kkrishkataria/krishkataria.github.io', icon: <Globe size={16} /> }
+                { name: 'Personal Website', link: 'https://github.com/kkrishkataria/krishkataria.github.io', icon: <ExternalLink size={16} /> }
               ].map((repo, idx) => (
                 <motion.a
                   key={idx}

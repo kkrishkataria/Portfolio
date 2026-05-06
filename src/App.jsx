@@ -54,7 +54,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
             <div>
               <p className="text-2xl font-black text-slate-900 tracking-tighter">Krish Kataria</p>
-              <p className="text-sm text-slate-400 font-bold mt-1">© {new Date().getFullYear()} Built with Precision.</p>
+              <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-2">© {new Date().getFullYear()} Built with Precision.</p>
             </div>
             <div className="flex gap-8 text-sm font-black text-slate-900 uppercase tracking-widest">
               <a href="https://github.com/kkrishkataria" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 transition-colors flex items-center gap-2">

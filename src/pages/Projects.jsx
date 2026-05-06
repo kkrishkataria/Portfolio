@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Code2, Sparkles, FolderGit2, Terminal, Cpu, Globe } from 'lucide-react';
+import { ExternalLink, Code2, Sparkles, FolderGit2, Terminal, Cpu, Droplet } from 'lucide-react';
 import { GithubIcon } from '../components/Icons';
 
 const Projects = () => {
@@ -17,7 +17,7 @@ const Projects = () => {
       title: 'Blood Bank Management',
       desc: 'Full-stack application for managing blood donations and bank inventories with real-time tracking.',
       tech: ['JavaScript', 'React', 'Node.js', 'MongoDB'],
-      icon: <Globe className="text-sky-600" size={24} />,
+      icon: <Droplet className="text-sky-600" size={24} />,
       github: 'https://github.com/kkrishkataria/Blood-Bank',
       accent: "border-sky-100 bg-sky-50/20"
     },

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Code2, BrainCircuit, Terminal, Dumbbell, ExternalLink, Globe, Cpu, Wrench, BookOpen, Music, Search } from 'lucide-react';
+import { Code2, BrainCircuit, Terminal, Dumbbell, ExternalLink, Layout, Cpu, Wrench, BookOpen, Music, Search } from 'lucide-react';
 import { LeetCodeIcon } from './Icons';
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
     { 
       category: 'Development', 
       skills: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind'], 
-      icon: <Globe size={18} />,
+      icon: <Layout size={18} />,
       color: "text-emerald-600 bg-emerald-50"
     },
     { 

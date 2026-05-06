@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { User, Globe, Cpu, Mail, ArrowRight, Code2, Sparkles, Fingerprint } from 'lucide-react';
+import { User, FolderGit2, Cpu, Mail, ArrowRight, Code2, Sparkles, Fingerprint, Globe } from 'lucide-react';
 
 const Hero = () => {
   const navigationItems = [
     { name: 'About Me', to: '/about', desc: 'Personality & Tech Stack.', icon: <User size={20} /> },
-    { name: 'Projects', to: '/projects', desc: 'Building digital systems.', icon: <Globe size={20} /> },
+    { name: 'Projects', to: '/projects', desc: 'Building digital systems.', icon: <FolderGit2 size={20} /> },
     { name: 'Education', to: '/education', desc: 'Academic background.', icon: <Cpu size={20} /> },
     { name: 'Contact', to: '/contact', desc: 'Let\'s start a conversation.', icon: <Mail size={20} /> },
   ];
@@ -133,7 +133,7 @@ const Hero = () => {
       <section className="py-12 max-w-7xl mx-auto px-6 w-full">
         <div className="p-10 md:p-20 bg-slate-900 rounded-[3rem] md:rounded-[4rem] text-center relative overflow-hidden shadow-2xl shadow-indigo-900/20">
           <div className="absolute top-0 right-0 p-20 opacity-10 pointer-events-none translate-x-1/4 -translate-y-1/4">
-            <Globe size={400} className="text-white" />
+            <Sparkles size={400} className="text-white" />
           </div>
           <div className="relative z-10 max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-6xl font-black text-white mb-10 tracking-tighter leading-tight">Ready to build <span className="text-indigo-400">something?</span></h2>
