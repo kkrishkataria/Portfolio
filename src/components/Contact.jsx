@@ -17,7 +17,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="relative p-8 md:p-16 bg-white border border-slate-100 rounded-[3.5rem] overflow-hidden shadow-2xl shadow-indigo-500/5"
+        className="relative p-6 md:p-16 bg-white border border-slate-100 rounded-[2.5rem] md:rounded-[3.5rem] overflow-hidden shadow-2xl shadow-indigo-500/5"
       >
         <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-50 rounded-full blur-3xl -mr-32 -mt-32 opacity-50"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-50 rounded-full blur-3xl -ml-32 -mb-32 opacity-30"></div>

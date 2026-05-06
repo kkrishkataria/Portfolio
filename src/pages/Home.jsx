@@ -27,7 +27,7 @@ const Home = () => {
       <Hero />
       
       {/* Philosophy Section */}
-      <section className="py-24 bg-slate-50 border-y border-slate-100 relative overflow-hidden">
+      <section className="py-16 md:py-24 bg-slate-50 border-y border-slate-100 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-50 rounded-full blur-3xl opacity-50 -mr-48 -mt-48"></div>
         
         <div className="max-w-7xl mx-auto px-6 relative z-10">

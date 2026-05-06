@@ -131,13 +131,13 @@ const Hero = () => {
 
       {/* CTA Section */}
       <section className="py-12 max-w-7xl mx-auto px-6 w-full">
-        <div className="p-20 bg-slate-900 rounded-[4rem] text-center relative overflow-hidden shadow-2xl shadow-indigo-900/20">
+        <div className="p-10 md:p-20 bg-slate-900 rounded-[3rem] md:rounded-[4rem] text-center relative overflow-hidden shadow-2xl shadow-indigo-900/20">
           <div className="absolute top-0 right-0 p-20 opacity-10 pointer-events-none translate-x-1/4 -translate-y-1/4">
             <Globe size={400} className="text-white" />
           </div>
           <div className="relative z-10 max-w-2xl mx-auto">
-            <h2 className="text-4xl md:text-6xl font-black text-white mb-10 tracking-tighter leading-tight">Ready to build <span className="text-indigo-400">something?</span></h2>
-            <Link to="/contact" className="inline-flex px-12 py-6 bg-indigo-600 text-white rounded-[2rem] font-black uppercase text-xs tracking-[0.2em] hover:bg-indigo-500 hover:scale-105 transition-all shadow-2xl shadow-indigo-500/40">
+            <h2 className="text-3xl md:text-6xl font-black text-white mb-10 tracking-tighter leading-tight">Ready to build <span className="text-indigo-400">something?</span></h2>
+            <Link to="/contact" className="inline-flex px-10 py-5 md:px-12 md:py-6 bg-indigo-600 text-white rounded-[1.5rem] md:rounded-[2rem] font-black uppercase text-[10px] md:text-xs tracking-[0.2em] hover:bg-indigo-500 hover:scale-105 transition-all shadow-2xl shadow-indigo-500/40">
               Get In Touch
             </Link>
           </div>
